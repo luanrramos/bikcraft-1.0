@@ -1,0 +1,107 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    place-content: center;
+    margin: 60px;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 20px;
+    flex: 1;
+    margin-bottom: 60px;
+}
+
+a{
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 500px));
+    place-content: center;
+    position: relative;
+}
+.red{
+    position: absolute;
+    top: -75px;
+    left: 425px;
+    color: #ee2211;
+    font-size: 50px;
+}
+.desc{
+    background-color: white;
+    display: grid;
+    place-content: center;
+}
+
+.nsei{
+    gap: 20px;
+    display: grid;
+    max-width: 400px;
+    text-align: right;
+    position: relative;
+}
+.bike img{
+    max-width: 100%;
+}
+.conteudo a{
+    background-color: #ee2211;
+    color: white;
+    place-self: center end;
+}
+p{
+    font-size: 20px;
+}
+
+.vantagens{
+    display: grid;
+    font-size: 64px;
+    height: 458px;
+    text-align: right;
+    align-items: center;
+    color: #c6c6c6;
+    margin-right: 40px;
+}
+
+.details{
+    background-color: white;
+    padding: 60px;
+}
+.details-items{
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+
+}
+.details-items img{
+    margin-top: 20px;
+    /* background-color: #c6c6c6; */
+}
+.details-items p{
+    margin-top: -10px;
+    /* background-color: #c6c6c6; */
+    grid-column: 2;
+}
+
+.footer{
+    margin: 0px;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
